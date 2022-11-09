@@ -129,10 +129,12 @@ table {
   width: 1200px;
 }
 
-.float_clearfix {
+.clearfix::after {
   content: "";
   clear: both;
+  display: block;
 }
+
 .float_box_1 {
   background-color: rgb(169, 244, 90);
   outline: dotted gray;
